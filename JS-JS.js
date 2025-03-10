@@ -8,7 +8,7 @@ button.onclick = function changeColor(){
      box.style.background = 'green'
     }else if(box.style.background == 'green'){
      box.style.background = 'black'
-    }else if(box.style.background == 'black'){
+    }else (box.style.background == 'black'){
      box.style.background = 'red'
     }
 }
