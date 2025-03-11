@@ -1,14 +1,15 @@
 var button = document.querySelector('button');
 var box = document.getElementById('farve-box');
+var colors = ['red','blue','green','black','purple']
 
 button.onclick = function changeColor(){
-    if(box.style.background == 'red'){
-        box.style.background = 'blue';
-    }else if(box.style.background == 'blue'){
-        box.style.background = 'green';
-    }else if(box.style.background == 'green'){
-        box.style.background = 'black';
+    if(box.style.background == colors[0]){
+        box.style.background = colors[1];
+    }else if(box.style.background == colors[1]){
+        box.style.background = colors[2];
+    }else if(box.style.background == colors[2]){
+        box.style.background = colors[3];
     }else {
-        box.style.background = 'red';
+        box.style.background = colors[0];
     }
 }
