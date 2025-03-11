@@ -9,7 +9,9 @@ button.onclick = function changeColor(){
         box.style.background = colors[2];
     }else if(box.style.background == colors[2]){
         box.style.background = colors[3];
-    }else {
+    }else if(box.style.background == colors[3]){
+        box.style.background = colors[4];
+    }else{
         box.style.background = colors[0];
     }
 }
