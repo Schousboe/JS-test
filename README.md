@@ -1,2 +1,2 @@
-# JS-test
+# First real JS
 Did i do it?
